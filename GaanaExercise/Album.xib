@@ -12,14 +12,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dPk-6Y-czJ" customClass="AlbumCell" customModule="CVVM" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dPk-6Y-czJ" customClass="AlbumCell" customModule="GaanaExercise">
             <rect key="frame" x="0.0" y="0.0" width="200" height="260"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                 <rect key="frame" x="0.0" y="0.0" width="200" height="260"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sXF-6t-0Bs">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="template" translatesAutoresizingMaskIntoConstraints="NO" id="sXF-6t-0Bs">
                         <rect key="frame" x="8" y="8" width="184" height="184"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="sXF-6t-0Bs" secondAttribute="height" multiplier="1:1" id="C5x-ki-wLw"/>
@@ -51,4 +51,7 @@
             <point key="canvasLocation" x="-32" y="99"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="template" width="616" height="357"/>
+    </resources>
 </document>

@@ -115,6 +115,7 @@
 				C6D9766322EC379300AACA17 /* ViewController.swift */,
 				C6D9769922EC42C300AACA17 /* DataModel.swift */,
 				C6D9769322EC39FF00AACA17 /* AlbumCell.swift */,
+				C6D9769B22EC486000AACA17 /* AlbumTableViewCell.swift */,
 				C6D9769122EC39C500AACA17 /* Album.xib */,
 				C6D9766522EC379300AACA17 /* Main.storyboard */,
 				C6D9769522EC3FBD00AACA17 /* HeaderCell.xib */,
@@ -123,7 +124,6 @@
 				C6D9766822EC379400AACA17 /* Assets.xcassets */,
 				C6D9766A22EC379400AACA17 /* LaunchScreen.storyboard */,
 				C6D9766D22EC379400AACA17 /* Info.plist */,
-				C6D9769B22EC486000AACA17 /* AlbumTableViewCell.swift */,
 			);
 			path = GaanaExercise;
 			sourceTree = "<group>";

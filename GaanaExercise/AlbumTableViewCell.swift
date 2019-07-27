@@ -14,6 +14,11 @@ class AlbumTableViewCell: UITableViewCell {
 
     var itemArray: [AlbumItem]?
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+
+        createSubView()
+    }
     
     func createSubView() {
         collectionView?.dataSource = self
@@ -30,7 +35,7 @@ class AlbumTableViewCell: UITableViewCell {
 
 extension AlbumTableViewCell: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return 3
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

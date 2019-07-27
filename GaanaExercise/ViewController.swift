@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 400
-        tableView.register(HeaderCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(AlbumTableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.reloadData()
     }
     
@@ -82,6 +82,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         print("section iteeeeemsss \(sectionItems)")
+        if indexPath.row == 0 , let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? AlbumTableViewCell {
+            return cell
+        }
         //        if indexPath.row == 0 {
         //            let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath) as! OutfitHeaderCell
         //            cell.backgroundColor = UIColor.cyan
